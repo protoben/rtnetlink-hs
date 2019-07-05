@@ -3,5 +3,5 @@ ghc:
     8.6.5
 sudo: required
 before_install:
-    - apt update
-    - apt install -y linux-libc-dev
+    - sudo apt update
+    - sudo apt install -y linux-libc-dev
