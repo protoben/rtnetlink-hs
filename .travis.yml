@@ -1,8 +1,6 @@
 language: haskell
 ghc:
     8.6.5
-addons:
-    apt:
-        update: true
-        packages:
-            - linux-libc-dev
+before_install:
+    - sudo apt update
+    - sudo apt install -y linux-libc-dev
