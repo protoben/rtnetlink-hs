@@ -1,11 +1,10 @@
 dist: xenial
 language: haskell
 ghc:
-    8.6.5
-#sudo: required
-#before_install:
-#    - sudo apt-get update
-#    - sudo apt-get install -y linux-libc-dev
+    - "8.2.2"
+    - "8.4.4"
+    - "8.6.4"
+    - "8.6.5"
 addon:
     apt:
         update: true
